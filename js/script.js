@@ -76,7 +76,15 @@ var retina = window.devicePixelRatio,
     };
 }(window));
 
+function showAlert() {
+  alert("Twoj dron już do Ciebie leci, kliknij niżej aby śledzić lego lot.");
+  window.location.href = "https://www.google.pl";
+}
+
 document.addEventListener("DOMContentLoaded", function () {
+
+    showAlert();
+
     var speed = 50,
         duration = (1.0 / speed),
         confettiRibbonCount = 10,
