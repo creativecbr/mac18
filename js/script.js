@@ -78,7 +78,7 @@ var retina = window.devicePixelRatio,
 
 function showAlert() {
   alert("Twoj dron już do Ciebie leci, kliknij niżej aby śledzić lego lot.");
-  window.location.href = "https://www.google.pl";
+  window.location.href = "https://inpost.pl/sledzenie-przesylek?number=630727928487340022559339";
 }
 
 document.addEventListener("DOMContentLoaded", function () {
